@@ -80,3 +80,6 @@
 ## 修改关联的远程仓库地址
 - git remote rm origin
 - git remote add origin ssh地址
+
+## 更新代码
+- 确保
