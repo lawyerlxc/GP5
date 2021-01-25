@@ -93,4 +93,7 @@
 ## 分支操作
 - git branch 查看当前所
 - 当前分支名前有个星号
-- git branch 
+- git branch 分支名 创建一个分支
+- git checkout 分支名
+- git merge 分支名 合并
+- git branch
