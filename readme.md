@@ -93,7 +93,14 @@
 ## 分支操作
 - git branch 查看当前所
 - 当前分支名前有个星号
-- git branch 分支名 创建一个分支
+- git branch 分支名        创建一个分支
 - git checkout 分支名
-- git merge 分支名 合并
-- git branch
+- git merge 分支名         合并某文件到当前分支
+- git branch -d 分支名     删除某分支
+- git push origin 分支名   将某个分支提交到远程仓库
+- git pull origin 分支名   将某个分支更新到本地仓库
+
+## fetch和pull的区别
+1. 它们都用于从远程更新到本地
+2. git fetch不会自动合并到当前分支（不会 merge）
+3. git pull 会自动合并到当前分支（会merge）
