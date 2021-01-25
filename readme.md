@@ -75,15 +75,22 @@
 ## 正常提交（非第一次）
 - git add . 提交到暂存区
 - git commit -m '注释' 提交到本地仓库
+- git pull 先更新远程到本地
 - git push 提交到远程仓库（默认提交到origin上的master分支）
 
 ## 修改关联的远程仓库地址
 - git remote rm origin
 - git remote add origin ssh地址
 
-<<<<<<< HEAD
 ## 更新代码
-- 确保
-=======
+- 确保自己工作区的代码先提交到本地仓库
+- 然后再从远程更新到本地 git pull
+-git clone 远程仓库地址 克隆代码到本地
+
 ## 其他人修改
->>>>>>> 6b6d5fee61397f8ba61dff068a906258490ab82d
+。。。。。。
+
+## 分支操作
+- git branch 查看当前所
+- 当前分支名前有个星号
+- git branch 
