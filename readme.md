@@ -81,5 +81,9 @@
 - git remote rm origin
 - git remote add origin ssh地址
 
+<<<<<<< HEAD
 ## 更新代码
 - 确保
+=======
+## 其他人修改
+>>>>>>> 6b6d5fee61397f8ba61dff068a906258490ab82d
